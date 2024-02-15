@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungarian Film Festival - 30MFF</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="comic-header">
+        <h1>The Morning Struggle</h1>
+        <p>A short movie showcasing the morning struggle of a college student</p>
+    </header>
+    
+
+    <!-- Paragraph Image Section -->
+    <section class="image-text-container">
+        <section class="highlight-section">
+            <div class="highlight-content">
+                <div class="highlight-text">
+                    <p>"Every journey leads to new discoveries, but some truths can only be found in the unseen."</p>
+                </div>
+                <div class="highlight-image">
+                    <img src="imgs/Comic1.png" alt="Highlighted Scene">
+                </div>
+            </div>
+        </section>
+
+        <section class="highlight-section">
+            <div class="highlight-content">
+                <div class="highlight-image-reversed">
+                    <img src="imgs/Comic2.png" alt="Highlighted Scene">
+                </div>
+                <div class="highlight-text">
+                    <p>"Every journey leads to new discoveries, but some truths can only be found in the unseen."</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="highlight-section">
+            <div class="highlight-content">
+                <div class="highlight-text">
+                    <p>"Every journey leads to new discoveries, but some truths can only be found in the unseen."</p>
+                </div>
+                <div class="highlight-image">
+                    <img src="imgs/Comic3.png" alt="Highlighted Scene">
+                </div>
+            </div>
+        </section>
+    </section>
+
+
+    <!-- Video -->
+    <div class="comic-section-video">
+        <h2>Watch the Movie</h2>
+    </div>
+    <div class="cinema">
+        <div class="title"> Morning Struggle</div> <!-- Title added here -->
+        <div class="screen">
+          <iframe id="festivalVideo" class="video" src="https://www.youtube.com/embed/HO37DIfwoIs?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="play-button">&#9658;</div>
+      </div>
+      
+
+      
+
+    <!-- Behind the scenes -->
+    <div class="comic-section-bts">
+        <h2>Behind the Scenes</h2>
+    </div>
+    <div class="carousel-container">
+        <div class="carousel-slide">
+          <img src="imgs/Comic1.png" alt="Portrait 1" class="carousel-image">
+          <img src="imgs/Comic2.png" alt="Portrait 2" class="carousel-image">
+          <img src="imgs/Comic3.png" alt="Portrait 3" class="carousel-image">
+          <!-- Add more images as needed -->
+        </div>
+        <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+        <a class="next" onclick="moveSlide(1)">&#10095;</a>
+      </div>
+    
+    <footer>
+        <p>&copy; 2024 Avinash - stefan Film Festival - 30MFF</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
