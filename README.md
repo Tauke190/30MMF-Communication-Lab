@@ -5,7 +5,7 @@ Project Description
 # Process
 The creation of the "Morning Struggle" website involved the use of JavaScript, HTML, and CSS to craft an immersive storytelling experience. The narrative unfolds linearly, with a scrolling mechanism that reveals a sequence of events, each correlating with the next to maintain a coherent story flow. Key features of the website include:
 
-**Embedded Video :**A central iframe hosts a video link to our short movie, produced during a class project. JavaScript controls ensure smooth playback and navigation, including slideshow functionality and video play/pause options.
+**Embedded Video:**A central iframe hosts a video link to our short movie, produced during a class project. JavaScript controls ensure smooth playback and navigation, including slideshow functionality and video play/pause options.
 **Behind the Scenes:** A sliding carousel section allows users to explore behind-the-scenes images. This interactive feature enables users to slide images left and right, offering a glimpse into the project's creation.
 
 # Reflection/Evaluation
