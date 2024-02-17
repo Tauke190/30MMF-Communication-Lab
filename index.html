@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hungarian Film Festival - 30MFF</title>
+    <title>Morning Stuggle - 30MFF</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,13 +12,17 @@
         <p>A short movie showcasing the morning struggle of a college student</p>
     </header>
     
+    <!-- Digital Clock -->
+    <div class="clockcontainer">
+        <div id="clock"></div>
+    </div>
 
     <!-- Paragraph Image Section -->
     <section class="image-text-container">
         <section class="highlight-section">
             <div class="highlight-content">
                 <div class="highlight-text">
-                    <p>"Every journey leads to new discoveries, but some truths can only be found in the unseen."</p>
+                    <p>"Every morning is a challenge and to be on time is a struggle"</p>
                 </div>
                 <div class="highlight-image">
                     <img src="imgs/Comic1.png" alt="Highlighted Scene">
@@ -32,7 +36,7 @@
                     <img src="imgs/Comic2.png" alt="Highlighted Scene">
                 </div>
                 <div class="highlight-text">
-                    <p>"Every journey leads to new discoveries, but some truths can only be found in the unseen."</p>
+                    <p>"I put my head in the shower but I still feel sleepy"</p>
                 </div>
             </div>
         </section>
@@ -40,7 +44,7 @@
         <section class="highlight-section">
             <div class="highlight-content">
                 <div class="highlight-text">
-                    <p>"Every journey leads to new discoveries, but some truths can only be found in the unseen."</p>
+                    <p>"The early morning classes of a college student are not easy"</p>
                 </div>
                 <div class="highlight-image">
                     <img src="imgs/Comic3.png" alt="Highlighted Scene">
@@ -55,31 +59,32 @@
         <h2>Watch the Movie</h2>
     </div>
     <div class="cinema">
-        <div class="title"> Morning Struggle</div> <!-- Title added here -->
+        <div class="title"> Morning Struggle</div>
         <div class="screen">
-          <iframe id="festivalVideo" class="video" src="https://www.youtube.com/embed/HO37DIfwoIs?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe id="festivalVideo" class="video" src="https://www.youtube.com/embed/1Co0HmJ06ns?si=PmxoQddgvqNKgtk7" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen width="800"></iframe>
         </div>
         <div class="play-button">&#9658;</div>
       </div>
-      
-
       
 
     <!-- Behind the scenes -->
     <div class="comic-section-bts">
         <h2>Behind the Scenes</h2>
     </div>
+
     <div class="carousel-container">
         <div class="carousel-slide">
-          <img src="imgs/Comic1.png" alt="Portrait 1" class="carousel-image">
-          <img src="imgs/Comic2.png" alt="Portrait 2" class="carousel-image">
-          <img src="imgs/Comic3.png" alt="Portrait 3" class="carousel-image">
-          <!-- Add more images as needed -->
+          <img src="imgs/BTS1.png" alt="Portrait 1" class="carousel-image">
+          <img src="imgs/BTS2.png" alt="Portrait 2" class="carousel-image">
+          <img src="imgs/BTS3.png" alt="Portrait 3" class="carousel-image">
+          <img src="imgs/BTS4.png" alt="Portrait 4" class="carousel-image">
+          <img src="imgs/BTS5.png" alt="Portrait 5" class="carousel-image">
         </div>
         <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
         <a class="next" onclick="moveSlide(1)">&#10095;</a>
       </div>
-    
+
+    <!-- Footer Section  -->
     <footer>
         <p>&copy; 2024 Avinash - stefan Film Festival - 30MFF</p>
     </footer>

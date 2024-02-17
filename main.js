@@ -1,5 +1,3 @@
-
-
 let slideIndex = 0;
 showSlides(slideIndex);
 
@@ -41,7 +39,14 @@ function togglePlay() {
     document.querySelector('.play-button').style.display = 'block';
   };
 
+  // Clock Functionality
+    function updateClock() {
+      const now = new Date();
+      let hours = now.getHours().toString().padStart(2, '0');
+      let minutes = now.getMinutes().toString().padStart(2, '0');
+      let seconds = now.getSeconds().toString().padStart(2, '0');
+      document.getElementById('clock').textContent = `${hours}:${minutes}:${seconds}`;
+  }
 
-
-  
-  
+  setInterval(updateClock, 1000); // Update the clock every second
+  updateClock(); // Initialize clock immediately

@@ -1,6 +1,26 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
+.clockcontainer {
+  display: flex;
+  justify-content: center;
+
+}
+
+#clock {
+  font-size: 60px;
+  letter-spacing: 7px;
+  animation: pulse 1s infinite alternate;
+  font-family: 'Bangers', cursive;
+  color: white;
+  background-color: yellowgreen;
+}
+
+@keyframes pulse {
+  from { transform: scale(1); }
+  to { transform: scale(1.05); }
+}
+
 .comic-header {
   background-color: #FFD700; 
   padding: 20px;
@@ -107,6 +127,7 @@ footer {
     display: block;
     object-fit: cover;
     height: 600px;
+    margin-left: 145px;
   }
   
   .prev, .next {
@@ -215,4 +236,14 @@ footer {
     border-radius: 5px;
     border: 2px solid #000;
   }
-  
+
+
+
+@keyframes grow {
+    from {
+        height: 0;
+    }
+    to {
+        height: calc(var(--value) * 50px);
+    }
+}
